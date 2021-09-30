@@ -8,3 +8,5 @@
       debug:
         msg: "This message should be skipped"
       when: False
+    - name: Always change
+      shell: date
